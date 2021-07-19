@@ -88,7 +88,7 @@ export default {
     },
     userScrolls(event) {
       console.log("user scrolls", event.deltaY);
-      // ehile the user is scrolling:
+      // while the user is scrolling:
       window.clearTimeout(this.isScrolling);
       // Set a timeout to run after scrolling ends
       this.isScrolling = setTimeout(() => {
